@@ -7,6 +7,9 @@ import './index.css'
 import Roots from './component/Roots/Roots';
 import ErrorPage from './component/ErrorPage/ErrorPage';
 import Home from './component/children/Home/Home';
+import Dashboard from './component/Dashboard/Dashboard';
+import Statistics from './component/Statistics/Statistics';
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -16,6 +19,14 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>
+      },
+      {
+        path: 'Statistics',
+        element: <Statistics></Statistics>
+      },
+      {
+        path: 'Dashboard',
+        element: <Dashboard></Dashboard>
       }
     ]
   },

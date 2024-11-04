@@ -1,17 +1,18 @@
 import React from 'react';
 import { FaRegHeart } from "react-icons/fa6";
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
 
     const Links = <>
 
-        <li><a className='text-base text-white font-medium'>Home</a></li>
-        <li><a className='text-base text-white font-medium'>Statistics</a></li>
-        <li><a className='text-base text-white font-medium'>Dashboard</a></li>
+        <li><NavLink to={'/'} className='text-base text-white font-medium'>Home</NavLink></li>
+        <li><NavLink to={'Statistics'} className='text-base text-white font-medium'>Statistics</NavLink></li>
+        <li><NavLink to={'Dashboard'} className='text-base text-white font-medium'>Dashboard</NavLink></li>
     </>
 
     return (
-      <div className="navbar bg-[#9538E2] ">
+      <div className="navbar bg-[#9538E2]  sticky top-0 z-50 ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -30,7 +31,7 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              className="menu menu-sm dropdown-content bg-red-200 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                 {Links}
             </ul>
           </div>

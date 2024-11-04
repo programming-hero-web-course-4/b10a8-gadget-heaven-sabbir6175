@@ -8,7 +8,7 @@ const Footer = () => {
                     <h1 className='text-4xl font-extrabold mb-3 text-[#09080F]'>Gadget Heaven</h1>
                     <p className='text-base font-medium text-[#09080F99]'>Leading the way in cutting-edge technology and innovation.</p>
                </div>
-            <footer className="footer p-10 justify-around">
+            <footer className="footer mt-3 p-5 md:p-10 md:justify-around">
                 <nav>
                     <h6 className="footer-title opacity-100 text-lg font-bold text-[#09080F]">Services</h6>
                     <a className="link link-hover text-[#09080F99] text-base font-normal">Product Support</a>
