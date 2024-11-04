@@ -1,0 +1,261 @@
+[
+  {
+    "product_id": "1",
+    "product_title": "Gaming Laptop",
+    "product_image": "https://example.com/images/gaming_laptop.jpg",
+    "category": "Laptops",
+    "price": 4797,
+    "description": "High-performance gaming laptop with RTX graphics and a fast refresh rate display.",
+    "specification": [
+      "Intel i7 processor",
+      "16GB RAM",
+      "1TB SSD",
+      "NVIDIA RTX 3070",
+      "144Hz display"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "2",
+    "product_title": "Business Laptop",
+    "product_image": "https://example.com/images/business_laptop.jpg",
+    "category": "Laptops",
+    "price": 3897,
+    "description": "Slim and powerful business laptop with long battery life and fingerprint reader.",
+    "specification": [
+      "Intel i5 processor",
+      "8GB RAM",
+      "512GB SSD",
+      "14-inch Full HD display"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "3",
+    "product_title": "Ultrabook Laptop",
+    "product_image": "https://example.com/images/ultrabook_laptop.jpg",
+    "category": "Laptops",
+    "price": 2597,
+    "description": "Lightweight ultrabook with impressive battery life and sharp display.",
+    "specification": [
+      "Intel i5 processor",
+      "16GB RAM",
+      "256GB SSD",
+      "13-inch Full HD display"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "4",
+    "product_title": "Budget Laptop",
+    "product_image": "https://example.com/images/budget_laptop.jpg",
+    "category": "Laptops",
+    "price": 1797,
+    "description": "Affordable laptop for basic tasks with solid performance.",
+    "specification": [
+      "Intel i3 processor",
+      "8GB RAM",
+      "1TB HDD",
+      "15.6-inch display"
+    ],
+    "availability": true,
+    "rating": 4.2
+  },
+  {
+    "product_id": "5",
+    "product_title": "Smartphone X",
+    "product_image": "https://example.com/images/smartphone_x.jpg",
+    "category": "Phones",
+    "price": 2997,
+    "description": "Flagship smartphone with triple-lens camera and OLED display.",
+    "specification": [
+      "6.5-inch OLED display",
+      "128GB storage",
+      "5G connectivity",
+      "Triple camera system"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "6",
+    "product_title": "Smartphone Z Pro",
+    "product_image": "https://example.com/images/smartphone_z_pro.jpg",
+    "category": "Phones",
+    "price": 3597,
+    "description": "Premium smartphone with large display and enhanced battery life.",
+    "specification": [
+      "6.7-inch AMOLED display",
+      "256GB storage",
+      "5G",
+      "Quad-camera setup"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "7",
+    "product_title": "Budget Smartphone",
+    "product_image": "https://example.com/images/budget_smartphone.jpg",
+    "category": "Phones",
+    "price": 897,
+    "description": "Budget-friendly smartphone with essential features for everyday use.",
+    "specification": [
+      "5.5-inch LCD display",
+      "64GB storage",
+      "4G connectivity",
+      "Dual-camera"
+    ],
+    "availability": true,
+    "rating": 4.1
+  },
+  {
+    "product_id": "8",
+    "product_title": "MacBook Pro 16-inch",
+    "product_image": "https://example.com/images/macbook_pro.jpg",
+    "category": "MacBook",
+    "price": 8097,
+    "description": "High-end MacBook Pro with M1 Pro chip for outstanding performance.",
+    "specification": [
+      "16-inch Liquid Retina XDR display",
+      "M1 Pro chip",
+      "16GB RAM",
+      "512GB SSD"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "9",
+    "product_title": "MacBook Air M2",
+    "product_image": "https://example.com/images/macbook_air.jpg",
+    "category": "MacBook",
+    "price": 4197,
+    "description": "Lightweight MacBook Air with M2 chip for excellent performance and battery life.",
+    "specification": [
+      "13.6-inch Liquid Retina display",
+      "M2 chip",
+      "8GB RAM",
+      "256GB SSD"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "10",
+    "product_title": "MacBook Pro 14-inch",
+    "product_image": "https://example.com/images/macbook_pro_14.jpg",
+    "category": "MacBook",
+    "price": 6497,
+    "description": "Compact MacBook Pro with powerful M1 Pro chip and sleek design.",
+    "specification": [
+      "14-inch Liquid Retina XDR display",
+      "M1 Pro chip",
+      "16GB RAM",
+      "1TB SSD"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "11",
+    "product_title": "Smartwatch Series 8",
+    "product_image": "https://example.com/images/smartwatch_8.jpg",
+    "category": "Smart Watches",
+    "price": 1347,
+    "description": "Latest smartwatch with fitness tracking and health monitoring capabilities.",
+    "specification": [
+      "Heart rate monitor",
+      "ECG app",
+      "GPS",
+      "Water-resistant up to 50 meters"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "12",
+    "product_title": "Luxury Smartwatch",
+    "product_image": "https://example.com/images/luxury_smartwatch.jpg",
+    "category": "Smart Watches",
+    "price": 1797,
+    "description": "Stylish smartwatch with stainless steel frame and customizable watch faces.",
+    "specification": [
+      "AMOLED display",
+      "Heart rate and sleep tracking",
+      "Bluetooth connectivity"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "13",
+    "product_title": "Budget Smartwatch",
+    "product_image": "https://example.com/images/budget_smartwatch.jpg",
+    "category": "Smart Watches",
+    "price": 597,
+    "description": "Affordable smartwatch with essential fitness tracking features.",
+    "specification": ["Step tracking", "Sleep monitoring", "Water resistance"],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": "14",
+    "product_title": "Phone Case",
+    "product_image": "https://example.com/images/phone_case.jpg",
+    "category": "Accessories",
+    "price": 87,
+    "description": "Durable phone case with shock absorption and sleek design.",
+    "specification": ["Drop-tested to 10 feet", "Raised edges", "Slim fit"],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": "15",
+    "product_title": "Wireless Charger",
+    "product_image": "https://example.com/images/wireless_charger.jpg",
+    "category": "Accessories",
+    "price": 147,
+    "description": "Fast wireless charger compatible with most smartphones.",
+    "specification": [
+      "15W fast charging",
+      "Qi-compatible",
+      "LED charging indicator"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "16",
+    "product_title": "Bluetooth Headphones",
+    "product_image": "https://example.com/images/bluetooth_headphones.jpg",
+    "category": "Accessories",
+    "price": 597,
+    "description": "Noise-cancelling over-ear Bluetooth headphones with long battery life.",
+    "specification": [
+      "40-hour battery life",
+      "Active noise cancellation",
+      "Bluetooth 5.0"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "17",
+    "product_title": "Laptop Backpack",
+    "product_image": "https://example.com/images/laptop_backpack.jpg",
+    "category": "Accessories",
+    "price": 207,
+    "description": "Ergonomic laptop backpack with multiple compartments and water resistance.",
+    "specification": [
+      "Fits up to 17-inch laptops",
+      "Water-resistant material",
+      "USB charging port"
+    ],
+    "availability": true,
+    "rating": 4.6
+  }
+]
