@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 // {
@@ -13,7 +14,7 @@ import React from 'react';
 //     "rating": 4.7
 //   },
 const GadgetData = ({gadgetData}) => {
-    const {product_title,product_image,price} = gadgetData;
+    const {product_title,product_image,price,product_id} = gadgetData;
     return (
         <div className="card card-compact bg-base-100  shadow-xl border p-4">
             <figure>
@@ -24,8 +25,11 @@ const GadgetData = ({gadgetData}) => {
             </figure>
             <div className="card-body p-0">
                 <h2 className="card-title font-extrabold text-2xl">{product_title}</h2>
-                <p className='text-lg font-medium'>Price: {price}</p>
-                <button className='btn border-[#9538E2] text-[#9538E2] rounded-2xl'>Show Details</button>
+                <p className='text-lg font-medium'>Price: {price}$</p>
+                {/* to={`/product/${product_id}`} */}
+                <Link to={`/GadgetsData/${product_id}`}>
+                    <button className='btn border-[#9538E2] text-[#9538E2] rounded-2xl'>Show Details</button>
+                </Link>
             </div>
         </div>
     );

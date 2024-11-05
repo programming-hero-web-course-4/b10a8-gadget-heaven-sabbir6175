@@ -36,7 +36,7 @@ const GadgetsData = () => {
    
     return (
         <div className='container mx-auto'>
-            <h1 className='text-4xl md:text-5xl font-bold text-center mb-16 text-[#9538E2]'>Explore Cutting-Edge Gadgets :{gadgetData.length} </h1>
+            <h1 className='text-4xl md:text-5xl font-bold text-center mb-16 text-[#9538E2]'>Explore Cutting-Edge Gadgets</h1>
 
 
             <div className='grid lg:grid-cols-12  gap-4 '>

@@ -6,7 +6,7 @@ import GadgetData from '../Gadget data/GadgetsData';
 const Home = () => {
     return (
        
-        <div className='mb-4'>
+        <div className=' mb-4'>
             <div className='bg-[#9538E2]  pb-72'>
                     <h1 className='text-center text-3xl md:text-6xl font-extrabold pt-10 pb-4 text-white'>Upgrade Your Tech Accessorize with <br /> Gadget Heaven Accessories</h1>
                     <p className='text-base font-normal text-[#FFFFFF] text-center'>Explore the latest gadgets that will take your experience to the next level. From smart devices to <br /> the coolest accessories, we have it all!</p>
