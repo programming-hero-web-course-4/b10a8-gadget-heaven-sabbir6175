@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className='bg-gray-200 pt-32 pb-10  shadow'>
+        <div className='bg-gray-200 mt-32 pt-5 pb-10  shadow'>
 
                <div className='text-center'>
                     <h1 className='text-4xl font-extrabold mb-3 text-[#09080F]'>Gadget Heaven</h1>
@@ -30,6 +30,7 @@ const Footer = () => {
                     <a className="link link-hover text-[#09080F99] text-base font-normal">Cookie policy</a>
                 </nav>
             </footer>
+            <h2 className='text-center text-xl font-bold'>All @copyright are reserved by <span className='text-red-500 cursor-pointer'>Sabbir Hasan</span></h2>
         </div>
     );
 };

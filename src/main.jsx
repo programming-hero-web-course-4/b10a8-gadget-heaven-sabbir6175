@@ -10,6 +10,8 @@ import Home from './component/children/Home/Home';
 import Dashboard from './component/Dashboard/Dashboard';
 import Statistics from './component/Statistics/Statistics';
 import ProductDetails from './component/children/Product details/ProductDetails';
+import Support from './component/Support/Support';
+import Contact from './component/Support/Contact';
 
 
 const router = createBrowserRouter([
@@ -35,6 +37,14 @@ const router = createBrowserRouter([
         path: 'Dashboard',
         element: <Dashboard></Dashboard>,
         loader: () => fetch('/public/GadgetData.json')
+      },
+      {
+        path: 'Support',
+        element: <Support></Support>
+      },
+      {
+        path: '/contact',
+        element: <Contact></Contact>
       }
     ]
   },

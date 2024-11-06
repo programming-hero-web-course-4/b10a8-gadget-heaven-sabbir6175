@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { BsCart3 } from "react-icons/bs";
 import { FaRegHeart } from "react-icons/fa6";
 import { useLoaderData, useParams } from "react-router-dom";
@@ -17,6 +17,7 @@ import {  storeAddToCart, storeWishList } from "../../Add To LocalStorage/AddtoS
 //   },
 
 const ProductDetails = () => {
+  const [heartClick, setHeartClick] = useState(false)
   const { product_id } = useParams();
   const id = parseInt(product_id);
   const data = useLoaderData();
@@ -43,6 +44,7 @@ const handleAddToCart = (id,product_title)=>{
 }
 const handleWishList = (id,product_title)=> {
     storeWishList(id,product_title);
+    setHeartClick(true)
 }
 
 
@@ -103,7 +105,9 @@ const handleWishList = (id,product_title)=> {
               </div>
               <div className="flex items-center gap-5">
                     <button onClick={() => {handleAddToCart(product_id,product_title)}} className="btn bg-[#9538E2] md:px-14 text-white rounded-2xl md:text-xl font-medium">Add to card <BsCart3> </BsCart3> </button>
-                    <FaRegHeart onClick={() => {handleWishList(product_id,product_title)}} className="text-2xl shadow bg-white w-12 h-12 border-2 rounded-full p-3 cursor-pointer "></FaRegHeart>
+                   <button disabled ={heartClick}  onClick={() => {handleWishList(product_id,product_title)}}>
+                      <FaRegHeart className={`text-2xl shadow bg-gray-300 w-12 h-12 border-2 rounded-full p-3  ${heartClick=== true && 'bg-white  '} `}></FaRegHeart>
+                   </button>
               </div>
             </div>
           </div>

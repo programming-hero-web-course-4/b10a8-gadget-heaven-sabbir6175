@@ -1,18 +1,20 @@
 import React from 'react';
 import { FaRegHeart } from "react-icons/fa6";
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
-
+    const { pathname } = useLocation()
+    console.log(pathname)
     const Links = <>
 
         <li><NavLink to={'/'} className='text-base text-white font-medium'>Home</NavLink></li>
         <li><NavLink to={'Statistics'} className='text-base text-white font-medium'>Statistics</NavLink></li>
         <li><NavLink to={'Dashboard'} className='text-base text-white font-medium'>Dashboard</NavLink></li>
+        <li><NavLink to={'Support'} className='text-base text-white font-medium'>Support</NavLink></li>
     </>
 
     return (
-      <div className="navbar bg-[#9538E2]  sticky top-0 z-50 ">
+      <div className={`navbar  sticky top-0 z-50 ${pathname === "/"? 'bg-[#9538E2] ' : 'bg-pink-300'} `}>
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

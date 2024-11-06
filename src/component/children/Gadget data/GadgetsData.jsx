@@ -40,8 +40,8 @@ const GadgetsData = () => {
 
 
             <div className='grid lg:grid-cols-12  gap-4 '>
-                <div className='grid col-span-12 lg:col-span-3 p-3 lg:p-0'>
-                        <div className='flex flex-col  gap-6'>
+                <div className='grid col-span-12 lg:col-span-3 p-3 lg:p-0 bg-gray-200 rounded-2xl'>
+                        <div className='flex flex-col  gap-6 p-4'>
                             {button}
                         </div>
                 </div>

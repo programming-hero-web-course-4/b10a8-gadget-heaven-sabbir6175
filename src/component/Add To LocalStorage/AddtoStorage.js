@@ -24,6 +24,9 @@ const storeAddToCart = (id,product_title) => {
         toast.success(`${product_title} Item added Add to Cart`)
     }
 };
+const clearStoredAddToCart = () => {
+    localStorage.removeItem('cart');  // Clears the cart from localStorage
+};
 
 // wish list
 const getStoredWishList = () => {
@@ -47,6 +50,9 @@ const storeWishList = (id,product_title) => {
         toast.success(`${product_title} items added wish list`)
     }
 };
+const clearStoredWishList = () => {
+    localStorage.removeItem('Wish-list');  // Clears the cart from localStorage
+};
 
 
-export {storeAddToCart,storeWishList,getStoredAddToCart,getStoredWishList}
+export {storeAddToCart,storeWishList,getStoredAddToCart,getStoredWishList,clearStoredAddToCart,clearStoredWishList}
