@@ -38,11 +38,11 @@ const ProductDetails = () => {
   } = productData;
 
 
-const handleAddToCart = (id)=>{
-    storeAddToCart(id);
+const handleAddToCart = (id,product_title)=>{
+    storeAddToCart(id,product_title);
 }
-const handleWishList = (id)=> {
-    storeWishList(id);
+const handleWishList = (id,product_title)=> {
+    storeWishList(id,product_title);
 }
 
 
@@ -102,8 +102,8 @@ const handleWishList = (id)=> {
                     </div>
               </div>
               <div className="flex items-center gap-5">
-                    <button onClick={() => {handleAddToCart(product_id)}} className="btn bg-[#9538E2] md:px-14 text-white rounded-2xl md:text-xl font-medium">Add to card <BsCart3> </BsCart3> </button>
-                    <FaRegHeart onClick={() => {handleWishList(product_id)}} className="text-2xl shadow bg-white w-12 h-12 border-2 rounded-full p-3 cursor-pointer "></FaRegHeart>
+                    <button onClick={() => {handleAddToCart(product_id,product_title)}} className="btn bg-[#9538E2] md:px-14 text-white rounded-2xl md:text-xl font-medium">Add to card <BsCart3> </BsCart3> </button>
+                    <FaRegHeart onClick={() => {handleWishList(product_id,product_title)}} className="text-2xl shadow bg-white w-12 h-12 border-2 rounded-full p-3 cursor-pointer "></FaRegHeart>
               </div>
             </div>
           </div>

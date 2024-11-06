@@ -33,7 +33,8 @@ const router = createBrowserRouter([
       },
       {
         path: 'Dashboard',
-        element: <Dashboard></Dashboard>
+        element: <Dashboard></Dashboard>,
+        loader: () => fetch('/public/GadgetData.json')
       }
     ]
   },

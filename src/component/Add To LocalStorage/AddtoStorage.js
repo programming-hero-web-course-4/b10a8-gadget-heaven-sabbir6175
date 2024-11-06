@@ -2,7 +2,7 @@ import { toast } from "react-toastify";
 
 
 
-
+// add to cart
 const getStoredAddToCart = () => {
     const cart = localStorage.getItem('cart');
     if (cart) {
@@ -13,7 +13,7 @@ const getStoredAddToCart = () => {
     }
 };
 
-const storeAddToCart = (id) => {
+const storeAddToCart = (id,product_title) => {
     const storedCart = getStoredAddToCart();
     if (storedCart.includes(id)) {
         toast.warn(`${id} already exists in the cart`);
@@ -21,11 +21,11 @@ const storeAddToCart = (id) => {
         storedCart.push(id);
         const updatedCart = JSON.stringify(storedCart);
         localStorage.setItem('cart', updatedCart);
-        toast.success('cart is Added Add to Cart')
+        toast.success(`${product_title} Item added Add to Cart`)
     }
 };
 
-
+// wish list
 const getStoredWishList = () => {
     const cart = localStorage.getItem('Wish-list');
     if (cart) {
@@ -36,7 +36,7 @@ const getStoredWishList = () => {
     }
 };
 
-const storeWishList = (id) => {
+const storeWishList = (id,product_title) => {
     const storedCart = getStoredWishList();
     if (storedCart.includes(id)) {
         toast.warn(`${id} already exists in the Wish-list`);
@@ -44,9 +44,9 @@ const storeWishList = (id) => {
         storedCart.push(id);
         const updatedCart = JSON.stringify(storedCart);
         localStorage.setItem('Wish-list', updatedCart);
-        toast.success('added wish list')
+        toast.success(`${product_title} items added wish list`)
     }
 };
 
 
-export {storeAddToCart,storeWishList}
+export {storeAddToCart,storeWishList,getStoredAddToCart,getStoredWishList}
