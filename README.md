@@ -1,12 +1,12 @@
 
 ## Project Name
-## Electronic Gadget Heaven
+## unused-sea project
 
 ## Live Website Link
 [https://unused-sea.surge.sh](https://unused-sea.surge.sh)
 
 ## Requirement Document Link
-
+[https://github.com/ProgrammingHero1/B10-A8-gadget-heaven/blob/main/Batch-10_Assignment-08.pdf](https://github.com/ProgrammingHero1/B10-A8-gadget-heaven/blob/main/Batch-10_Assignment-08.pdf)
 
 
 ## Features

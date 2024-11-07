@@ -8,9 +8,9 @@ const Navbar = () => {
     const Links = <>
 
         <li><NavLink to={'/'} className='text-base text-white font-medium'>Home</NavLink></li>
-        <li><NavLink to={'Statistics'} className='text-base text-white font-medium'>Statistics</NavLink></li>
-        <li><NavLink to={'Dashboard'} className='text-base text-white font-medium'>Dashboard</NavLink></li>
-        <li><NavLink to={'Support'} className='text-base text-white font-medium'>Support</NavLink></li>
+        <li><NavLink to={'/Statistics'} className='text-base text-white font-medium'>Statistics</NavLink></li>
+        <li><NavLink to={'/Dashboard'} className='text-base text-white font-medium'>Dashboard</NavLink></li>
+        <li><NavLink to={'/Support'} className='text-base text-white font-medium'>Support</NavLink></li>
     </>
 
     return (

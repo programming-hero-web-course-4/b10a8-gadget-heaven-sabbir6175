@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BsCart3 } from "react-icons/bs";
 import { FaRegHeart } from "react-icons/fa6";
 import { useLoaderData, useParams } from "react-router-dom";
-import {  storeAddToCart, storeWishList } from "../../Add To LocalStorage/AddtoStorage";
+import {  storeAddToCart, storeWishList } from "../../Add To LocalStorage/AddToStorage";
 
 // {
 //     "product_id": "1",

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ModalImg from '../../assets/Group.png'
-import { useLoaderData, useNavigate,  } from 'react-router-dom';
-import { clearStoredAddToCart, clearStoredWishList, getStoredAddToCart, getStoredWishList} from '../Add To LocalStorage/AddtoStorage';
+import { useLoaderData, useNavigate } from 'react-router-dom';
+import { clearStoredAddToCart, clearStoredWishList, getStoredAddToCart, getStoredWishList} from '../Add To LocalStorage/AddToStorage';
 
 
 const Dashboard = () => {
@@ -17,14 +17,14 @@ const Dashboard = () => {
         const storedAddToCart = getStoredAddToCart();
         const storedCartInt = storedAddToCart.map(id => parseInt(id))
         // console.log(storedAddToCart, storedCartInt,allData)
-        const AddToCartList =allData.filter(cart => storedCartInt.includes(cart.product_id))
+        const AddToCartList =allData?.filter(cart => storedCartInt.includes(cart.product_id))
         setAddToCart(AddToCartList);
 
 
         const storedWishList = getStoredWishList();
         const storedWishInt = storedWishList.map(id => parseInt(id))
         // console.log(storedWishList, storedWishInt,allData)
-        const storeWishList =allData.filter(wishList => storedWishInt.includes(wishList.product_id))
+        const storeWishList =allData?.filter(wishList => storedWishInt.includes(wishList.product_id))
         setWishList(storeWishList)
     },[allData])
 
